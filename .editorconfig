@@ -1,0 +1,13 @@
+root = true
+
+# General settings for whole project
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+
+# Format specific overrides
+[*.js]
+indent_style = space
+indent_size = 2

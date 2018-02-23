@@ -1,0 +1,32 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "棋盘问题",
+  "main": "index.js",
+  "author": "<yoyoyohamapi softshot37@gmail.com>",
+  "repository" :{ 
+    "type" : "git",
+    "url" : "https://github.com/yoyoyohamapi/chess.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ./"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-lodash-fp": "^2.1.3",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
